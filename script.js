@@ -48,5 +48,10 @@ if (n5 == n4){
     console.log("Digite um Valor Válido!")
 }
 
+var idade = 26
+var n = idade >= 13 ? 'MAIOR' : 'MENOR'
+
+var a = 5
+var b = 5
 
 
