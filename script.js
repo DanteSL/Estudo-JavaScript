@@ -52,7 +52,9 @@ if (n5 == n4){
 // Operações aritméticos e Relacionais
 
 var idade = 26
-var n = idade >= 13 ? 'MAIOR' : 'MENOR'
+var n = idade >= 13 ? "MAIOR" : "MENOR"
+
+console.log (n)
 
 var a = 5
 var b = 5
@@ -188,6 +190,32 @@ var n4 = n1 += 10
 
 console.log(n3)
 console.log(n4)
+
+var numero = 12
+var parouimpar = (numero % 2 === 0) ? "impar" : "par"
+
+console.log("O numero é", parouimpar)
+
+var a = 5
+var b = 10
+var d = true
+
+console.log (d ? a : b)
+
+var n1 = 30
+var n2 = "30"
+
+console.log("Igual á", n1 == n2)
+console.log("Identico á", n1 === n2)
+console.log("Maior que", n1 > n2)
+console.log("Menor que", n1 < n2)
+console.log("Menor ou igual que", n1 <= n2)
+console.log("Maior ou igual que", n1 >= n2)
+console.log("Diferente de", n1 != n2)
+
+
+
+
 
 
 
