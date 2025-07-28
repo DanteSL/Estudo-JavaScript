@@ -1,3 +1,4 @@
+// Código de valor
 var nome = "Dante"
 var idade = 26
 var nota = 10
@@ -48,10 +49,145 @@ if (n5 == n4){
     console.log("Digite um Valor Válido!")
 }
 
+// Operações aritméticos e Relacionais
+
 var idade = 26
 var n = idade >= 13 ? 'MAIOR' : 'MENOR'
 
 var a = 5
 var b = 5
+
+
+var n1 = 20
+var n2 = 30
+
+console.log("soma", a + b);
+console.log("subtracao", a - b);
+console.log("multiplicacao", a * b);
+console.log("divisao", a / b)
+
+var contador = 0
+
+var n1 = ++contador
+var n2 = --contador
+console.log(n1)
+console.log(n2)
+
+var x = 10
+var y = "10"
+
+console.log(x == y)
+console.log(x === y)
+console.log(x != y)
+console.log(x !== y)
+
+// Operação ternário
+
+var idade = 20
+var temCarteira = "Pode dirigir"
+
+console.log(idade >= 18 && TemCarteira)
+
+var temchuva = true
+var temguardachuva = false
+
+console.log("Vai se molhar", temchuva && !temguardachuva)
+
+var numero = 7
+var parouimpar = (numero % 2 === 0) ? "par" : "impar"
+
+console.log("O numero é", parouimpar)
+
+var numero = 12
+var parouimpar = (numero % 4 ===0) ? "par" : "impar"
+
+console.log("O numero é", parouimpar)
+
+var numero = 50
+var parouimpar = (numero * 15) ? "par" : "impar"
+
+console.log("O numero é", parouimpar)
+
+var vaichover = "Vai se molhar"
+var naovaichover = "Não vai se molhar"
+var guardachuva = true
+
+console.log(guardachuva ? vaichover : naovaichover)
+
+var estante = "Não tem livros"
+var estanteocupada = "Tem livros"
+var pegarlivro = true
+
+console.log(pegarlivro ? estanteocupada : estante)
+
+var gatonacaixa = "Tem um gato na caixa"
+var gatoforadacaixa = "Não tem um gato na caixa"
+var gato = true
+
+console.log(gato ? gatonacaixa : gatoforadacaixa)
+
+var numero = 20
+var parouimpar = (numero % 2 === 0) ? "par" : "impar"
+
+console.log("O numero é", parouimpar)
+
+var estacionamento = "Há vagas"
+var estacionamentocheio = "Não há vagas"
+var vagas = true
+
+console.log(vagas ? estacionamento : estacionamentocheio)
+
+var numero = 34
+var parouimpar = (numero % 2 === 0) ? "par" : "impar"
+
+console.log("O numero é", parouimpar)
+
+//Operações de Aritmética e Relacionais
+
+var x = 10
+var y = "10"
+
+console.log("x == y", x == y)
+console.log("x > y", x > y)
+console.log("x != y", x != y)
+console.log("x === y", x === y)
+console.log("x !== y", x !== y)
+console.log("x = y", x = y)
+
+var x = 18237128731823
+var y = 94875389579289
+
+console.log("Somar", x + y)
+console.log("Subtração", x - y)
+console.log("Divisão", x / y)
+console.log("Multiplicação", x * y)
+console. log("Módulo", x % y)
+
+var x = parseInt("10")
+
+console.log(x)
+
+var y = parseFloat(10)
+
+console.log(y)
+
+var n1 = 10
+var n2 = 20
+
+var n3 = n1 + 10
+var n4 = n2 -= 20
+
+console.log(n3)
+console.log(n4)
+
+var n1 = 10
+var n2 = 10
+
+var n3 = n1 + 10
+var n4 = n1 += 10
+
+console.log(n3)
+console.log(n4)
+
 
 
