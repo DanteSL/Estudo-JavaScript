@@ -163,7 +163,7 @@ console.log("Somar", x + y)
 console.log("Subtração", x - y)
 console.log("Divisão", x / y)
 console.log("Multiplicação", x * y)
-console. log("Módulo", x % y)
+console.log("Módulo", x % y)
 
 var x = parseInt("10")
 
@@ -212,6 +212,18 @@ console.log("Menor que", n1 < n2)
 console.log("Menor ou igual que", n1 <= n2)
 console.log("Maior ou igual que", n1 >= n2)
 console.log("Diferente de", n1 != n2)
+
+var numero = 123971
+var parouimpar = (numero % 2 ===0) ? "par" : "impar"
+
+console.log("O numero é", parouimpar)
+
+var n1 = 5
+var n2 = 10
+var resultado = n1 > 0 && n2 > 5 && ("Tudo certo")
+
+console.log(resultado)
+
 
 
 
